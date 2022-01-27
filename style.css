@@ -1,0 +1,313 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#body {
+    background-color: #AAB7B8;
+    width: 100%;
+    height: 100vh;
+    /* filter: blur(10px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBody {
+    /* background-color: #1D7BB6; */
+    background: linear-gradient(to left, #10D6F9, #1D7BB6, #0D3375);
+    width: 85%;
+    height: 90vh;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBodyPt1 {
+    /* background-color: cadetblue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.signupInfo {
+    /* background-color: crimson; */
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signupInfo h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.signupInfoMain {
+    /* background-color: turquoise; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.signupInfoMain div {
+    /* background-color: tomato; */
+    width: 100%;
+    padding: 12px;
+}
+
+.signupInfoMain div input {
+    width: 100%;
+    height: 36px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.signupInfoMain div p {
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+/* .firstNmeInpt {
+    width: 260px;
+}
+
+.lastNmeInpt {
+    width: 260px;
+} 
+
+.emailInpt {
+    width: 80%;
+}
+
+.phNumInpt {
+    width: 60%;
+} */
+
+.passwordInpt {
+    width: 60%;
+    position: relative;
+}
+
+#eyeBtn {
+    position: absolute;
+    top: 48px;
+    right: 28px;
+    color: #1D7BB6;
+    cursor: pointer;
+
+}
+
+.signupContent {
+    height: fit-content;
+}
+
+.signupBtnMain {
+    /* background-color: white; */
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signupBtn {
+    background-color: white;
+    width: 80%;
+    height: fit-content;
+    font-size: 18px;
+    padding: 14px;
+    outline: none;
+    border: none;
+    margin: auto;
+    border-radius: 6px;
+    color: #1D7BB6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signupBtnMain p {
+    margin-top: 12px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.signupBtnMain p span a {
+    color: white;
+    text-decoration: none;
+}
+
+.loginBtnMain {
+    /* background-color: white; */
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.loginBtn {
+    background-color: white;
+    width: 80%;
+    height: fit-content;
+    font-size: 18px;
+    padding: 14px;
+    outline: none;
+    border: none;
+    margin: auto;
+    border-radius: 6px;
+    color: #1D7BB6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginBtnMain p {
+    margin-top: 12px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.loginBtnMain p span a {
+    color: white;
+    text-decoration: none;
+}
+
+.infoBodyPt2{
+    /* background-color: cornflowerblue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBodyPt2 img {
+    width: 80%;
+}
+
+/* Dashboard */
+.userNameHeading {
+    font-weight: 100;
+}
+
+.signupInfo {
+    /* background-color: crimson; */
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dashboardInfoMain {
+    /* background-color: turquoise; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.dashboardInfoMain div {
+    /* background-color: tomato; */
+    padding: 12px;
+    font-size: 18px;
+}
+
+.dashboardInfoMain div span {
+    font-weight: 100;
+}
+
+.dashboardInfoMain div p {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.dashboardHead {
+    margin-top: 20px;
+}
+
+.daashboardCnt {
+    width: 100%;
+}
+
+.logout {
+    width: 70%;
+    background-color: white;
+    border-radius: 6px;
+    color: #1D7BB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.logout h2 a {
+    text-decoration: none;
+    color: whitesmoke;
+    color: #1D7BB6;
+    outline: none;
+}
+
+@media screen and (max-width: 800px) {
+    #body{
+        height: 100vh;
+        word-wrap: break-word;
+    }
+
+    .infoBody {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 90vh;
+    }
+
+    .infoBodyPt2 {
+        display: none;
+    }
+
+    .infoBodyPt1 {
+        width: 100%;
+    }
+
+    .signupInfoMain div{
+        width: 90%;
+    }
+
+    .signupInfo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .signuppmain{
+        height: fit-content;
+    }
+
+    .signupContent {
+        height: fit-content !important;
+    }
+
+    .signupbody {
+        height: fit-content !important;
+    }
+} 
